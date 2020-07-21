@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="92px" viewBox="0 0 92 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>默认头像</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="46" cy="46" r="46"></circle>
+        <linearGradient x1="108.045319%" y1="12.5976551%" x2="50.1119562%" y2="43.6570599%" id="linearGradient-3">
+            <stop stop-color="#F7F8FA" offset="0%"></stop>
+            <stop stop-color="#7594AF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M21.9971508,0 L43.2695159,0 C55.4182068,-2.23167832e-15 65.2666667,9.84845987 65.2666667,21.9971508 L65.2666667,27.582139 C65.2666667,36.6463261 57.9186912,43.9943016 48.854504,43.9943016 L32.4423414,43.9943016 L16.2211707,43.9943016 C7.2624655,43.9943016 4.64983864e-15,36.7318361 0,27.7731309 L0,21.9971508 C-1.48778555e-15,9.84845987 9.84845987,-1.32103536e-15 21.9971508,0 Z" id="path-4"></path>
+        <path d="M4.03214018,20.4648506 C6.16657212,20.4648506 7.89687109,22.5056979 7.89687109,25.0232107 C7.89687109,27.5407235 6.16657212,29.5815708 4.03214018,29.5815708 C1.89770823,29.5815708 0.167409262,27.5407235 0.167409262,25.0232107 C0.167409262,22.5056979 1.89770823,20.4648506 4.03214018,20.4648506 Z M39.2273675,20.2860913 C41.3617995,20.2860913 43.0920985,22.3269387 43.0920985,24.8444515 C43.0920985,27.3619642 41.3617995,29.4028116 39.2273675,29.4028116 C37.0929356,29.4028116 35.3626366,27.3619642 35.3626366,24.8444515 C35.3626366,22.3269387 37.0929356,20.2860913 39.2273675,20.2860913 Z" id="path-6"></path>
+        <filter x="-8.2%" y="-37.7%" width="116.3%" height="175.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-3" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.942589962   0 0 0 0 0.973904528   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M17.7088103,0.325496343 C27.2497928,0.325496343 34.9842873,8.05999083 34.9842873,17.6009733 L34.9842873,25.3985042 C34.9842873,34.9394867 27.2497928,42.6739812 17.7088103,42.6739812 C8.16782782,42.6739812 0.433333333,34.9394867 0.433333333,25.3985042 L0.433333333,17.6009733 C0.433333333,8.05999083 8.16782782,0.325496343 17.7088103,0.325496343 Z" id="path-8"></path>
+        <filter x="-10.1%" y="-8.3%" width="120.3%" height="116.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-3" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.859731353   0 0 0 0 0.911644469   0 0 0 0 0.9549054  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="28.1485686%" y1="-7.46122396%" x2="55.4659723%" y2="30.344984%" id="linearGradient-11">
+            <stop stop-color="#AFC8DA" offset="0%"></stop>
+            <stop stop-color="#587997" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-4.53831862%" y1="34.119666%" x2="63.642353%" y2="44.56802%" id="linearGradient-12">
+            <stop stop-color="#AFC8DA" offset="0%"></stop>
+            <stop stop-color="#7797B3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="个人中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-190.000000, -194.000000)" id="#Profile">
+            <g transform="translate(190.000000, 194.000000)">
+                <g id="Card_Team">
+                    <g id="个人">
+                        <g id="默认头像">
+                            <g id="timg">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="蒙版" fill="#E8E8E8" xlink:href="#path-1"></use>
+                                <g mask="url(#mask-2)">
+                                    <g transform="translate(13.000000, 7.000000)">
+                                        <g id="衣服" transform="translate(0.000000, 40.483542)">
+                                            <mask id="mask-5" fill="white">
+                                                <use xlink:href="#path-4"></use>
+                                            </mask>
+                                            <use id="Mask" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                                            <path d="M32.6647765,-16.0632184 C36.9347347,-16.0632184 40.3962197,-12.6017334 40.3962197,-8.33177519 L40.3962197,-1.35980321 C40.3962197,2.91015496 36.9347347,6.37163998 32.6647765,6.37163998 C28.3948184,6.37163998 24.9333333,2.91015496 24.9333333,-1.35980321 L24.9333333,-8.33177519 C24.9333333,-12.6017334 28.3948184,-16.0632184 32.6647765,-16.0632184 Z" id="Rectangle-34" fill="#FFFFFF" mask="url(#mask-5)"></path>
+                                        </g>
+                                        <g id="男" transform="translate(11.733333, 0.000000)">
+                                            <g id="Combined-Shape">
+                                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                            </g>
+                                            <g id="Combined-Shape-Copy-3" transform="translate(3.598807, 0.000000)">
+                                                <mask id="mask-9" fill="white">
+                                                    <use xlink:href="#path-8"></use>
+                                                </mask>
+                                                <g id="Mask">
+                                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
+                                                </g>
+                                                <ellipse id="Combined-Shape" fill="url(#linearGradient-11)" mask="url(#mask-9)" cx="30.9833656" cy="8.66954037" rx="13.0011152" ry="5.39200782"></ellipse>
+                                                <path d="M-0.284952978,-2.48275862 L31.1666667,-2.48275862 L31.1666667,-2.48275862 L31.1666667,-1.38599791 C31.1666667,10.3960768 21.615408,19.9473354 9.83333333,19.9473354 L-0.284952978,19.9473354 C-6.47885242,19.9473354 -11.5,14.9261878 -11.5,8.7322884 C-11.5,2.53838896 -6.47885242,-2.48275862 -0.284952978,-2.48275862 Z" id="Rectangle-40" fill="url(#linearGradient-12)" mask="url(#mask-9)"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
