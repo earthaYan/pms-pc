@@ -19,3 +19,8 @@ code {
 ul,li{
   list-style: none;
 }
+.icon>svg{
+  color: #ffffff;
+  height: 50px;
+  width: 45px;
+}
