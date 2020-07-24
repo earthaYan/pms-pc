@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.scss'
 import { Layout, Menu,Dropdown } from 'antd';
-import {createFromIconfontCN,MailOutlined, UserOutlined, LaptopOutlined, NotificationOutlined,MenuUnfoldOutlined,MenuFoldOutlined} from '@ant-design/icons';
+import {createFromIconfontCN, UserOutlined, LaptopOutlined, NotificationOutlined,MenuUnfoldOutlined,MenuFoldOutlined} from '@ant-design/icons';
 import {BrowserRouter as Router,Route,Link, Redirect} from "react-router-dom";
 import menu from './assets/js/menu'
 import HomePage from './views/homepage'
 
 const { Header, Content, Sider } = Layout;
 const Iconfont=createFromIconfontCN({
-  scriptUrl: '//at.alicdn.com/t/font_1953884_rg89im7c0ij.js',
+  scriptUrl: '//at.alicdn.com/t/font_1953884_1fzjr5hm2kn.js',
 });
 class App extends Component {
   constructor(props){
@@ -58,7 +58,7 @@ class App extends Component {
               </div>
             </div>
           </Header>
-          <Layout>
+          <Layout className="main-app" style={{minHeight:'auto'}} >
             <Sider width={140} collapsible trigger={null} collapsed={this.state.collapsed}>
               <Menu mode="inline" defaultSelectedKeys={['9']}  style={{ height: '100%', borderRight: 0 }}>
                   <Menu.Item key="9"  icon={<UserOutlined/>}>option9</Menu.Item>
@@ -71,11 +71,11 @@ class App extends Component {
               onClick: this.toggle,
             })}
             </Sider>
-            <Layout style={{ padding: '0' ,background:'rgba(243, 243, 245, 1)'}}>
+            <Layout style={{ padding: '20px'  }}>
               <Content
                 className="site-layout-background"
                 style={{
-                  padding: 24,
+                  padding:0,
                   margin: 0,
                   minHeight: 280,
                 }}

@@ -1,0 +1,88 @@
+.charts{
+    margin: 20px auto;
+}
+.rest{
+    font-size:28px;
+    font-weight:bold;
+    color:rgba(23,23,37,1);
+    line-height:56px;
+    margin-bottom: 0;
+}
+.coin{
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(105,105,116,1);
+    line-height:22px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.in-title{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 14px;
+}
+.in-content{
+    padding: 10px;
+    margin: 4px;
+    text-align: left;
+}
+.in-item{
+    font-size:14px;
+    font-weight:400;
+    color:rgba(105,105,116,1);
+    line-height:20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    div{
+        margin-bottom: 5px;
+    }
+    .item-num{
+        font-size:16px;
+        font-family:DINAlternate-Bold,DINAlternate;
+        font-weight:bold;
+        color:rgba(105,105,116,1);
+        line-height:19px;
+    }
+}
+.content-bottom{
+    .table-header{
+        background:rgba(80,181,255,0.1);
+        border-radius:10px;
+        padding: 10px;
+    }
+    .table-body{
+        >.ant-row{
+            padding: 10px;
+        }
+        .table-item{
+            font-size: 18px;
+        }
+    }
+    .icon-index{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 15px;
+        vertical-align: middle;
+        >svg{
+            width: 20px;
+            height: 20px;
+            margin: 6px auto;
+        }
+
+    }
+}
+i.icon{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 12px;
+}
+.privateData{
+    padding-left: 15px;
+}

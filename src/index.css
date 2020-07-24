@@ -24,3 +24,11 @@ ul,li{
   height: 50px;
   width: 45px;
 }
+.fb{
+  font-weight: bold;
+}
+h4{
+  font-size:24px;
+  color:rgba(43,43,66,1);
+  margin: 10px auto;
+}
