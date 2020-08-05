@@ -1,0 +1,41 @@
+h2{
+    font-size:24px;
+    font-weight:400;
+    color:rgba(23,23,37,1);
+}
+.property-index{
+    .filter{
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    .btn-filter{
+        padding-bottom: 16px;
+        button{
+            width: 88px;
+            height: 38px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+    }
+    .picker{
+        margin: 0 10px;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+}
+.w150{
+    width: 150px;
+}
+.w100{
+    width: 100px;
+}
+.w280{
+    width: 280px;
+}
+.ant-cascader-input,.ant-cascader-picker,.ant-input-affix-wrapper ,.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}

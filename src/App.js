@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import './App.scss'
 import { Layout, Menu,Dropdown } from 'antd';
 import {createFromIconfontCN, UserOutlined, LaptopOutlined, NotificationOutlined,MenuUnfoldOutlined,MenuFoldOutlined} from '@ant-design/icons';
-import {BrowserRouter as Router,Route,Link, Redirect} from "react-router-dom";
+import {BrowserRouter as Router,Route, Redirect,Switch} from "react-router-dom";
 import menu from './assets/js/menu'
 import HomePage from './views/homepage'
-
+import PropertyIndex from './views/property/index'
+import PropertyMessages from './views/property/messages'
+import PropertyAgents from './views/property/agents'
 const { Header, Content, Sider } = Layout;
 const Iconfont=createFromIconfontCN({
   scriptUrl: '//at.alicdn.com/t/font_1953884_1fzjr5hm2kn.js',
@@ -31,8 +33,8 @@ class App extends Component {
               <img src="/assets/Logo_white.svg"/>
             </div>
             <Menu theme="dark"  mode="horizontal" defaultSelectedKeys={['1']}>
-              <Menu.Item key="1">nav 1</Menu.Item>
-              <Menu.Item key="2">nav 2</Menu.Item>
+              <Menu.Item key="1">首页</Menu.Item>
+              <Menu.Item key="2">楼盘管理</Menu.Item>
               <Menu.Item key="3">nav 3</Menu.Item>
             </Menu>
             <div className="right-my">
@@ -85,6 +87,15 @@ class App extends Component {
                     <Redirect to="/homepage"/>
                   )}></Route>
                   <Route path="/homepage" exact component={HomePage}></Route>
+                  <Route>
+                    <Router>
+                      <Switch>
+                        <Route path="/property/index" exact component={PropertyIndex}></Route>
+                        <Route path="/property/messages" exact component={PropertyMessages}></Route>
+                        <Route path="/property/agent" exact component={PropertyAgents}></Route>
+                      </Switch>
+                    </Router>
+                  </Route>
                 </Router>
 
               </Content>
