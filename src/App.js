@@ -42,7 +42,7 @@ class App extends Component {
                 <Iconfont type="icon-phone" className="icon" style={{transform: 'scale(0.6)'}}/>
               </div>
               <div className="text">
-                <span>下载APP</span>
+                <span>APP下载</span>
               </div>
               <div className="info">
                 <Iconfont type="icon-xiaoxi1" className="icon"  style={{transform: 'scale(0.7)'}}/>
