@@ -8,6 +8,7 @@ import HomePage from './views/homepage'
 import PropertyIndex from './views/property/index'
 import PropertyMessages from './views/property/messages'
 import PropertyAgents from './views/property/agents'
+import Personal from './views/personal/index'
 const { Header, Content, Sider } = Layout;
 const Iconfont=createFromIconfontCN({
   scriptUrl: '//at.alicdn.com/t/font_1953884_1fzjr5hm2kn.js',
@@ -38,26 +39,16 @@ class App extends Component {
               <Menu.Item key="3">nav 3</Menu.Item>
             </Menu>
             <div className="right-my">
-              <div className="download">
-                <Iconfont type="icon-phone" className="icon" style={{transform: 'scale(0.6)'}}/>
-              </div>
-              <div className="text">
-                <span>APP下载</span>
-              </div>
-              <div className="info">
-                <Iconfont type="icon-xiaoxi1" className="icon"  style={{transform: 'scale(0.7)'}}/>
-              </div>
-              <div className="avatar">
-                <img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
-              </div>
-              <div className="userName">
-                <span>我是总行</span>
-              </div>
-              <div className="drop">
+                <Iconfont type="icon-phone" className="icon"/>
+                <span className="download">App下载</span>
+                <Iconfont type="icon-xiaoxi1" className="icon"/>
+                <span className="avatar">
+                  <img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/>
+                </span>
+                <span className="username">我是总行</span>
                 <Dropdown overlay={menu} placement="bottomRight" arrow overlayStyle={{borderRadius:'50%'}}>
-                  <Iconfont type="icon-zhankaigengduo" className="icon"  style={{transform: 'scale(0.6)'}}/>
+                  <Iconfont type="icon-zhankaigengduo" className="icon"/>
                 </Dropdown>
-              </div>
             </div>
           </Header>
           <Layout className="main-app" style={{minHeight:'auto'}} >
@@ -96,6 +87,7 @@ class App extends Component {
                       </Switch>
                     </Router>
                   </Route>
+                  <Route path="/personalCenter" exact component={Personal}></Route> 
                 </Router>
 
               </Content>
